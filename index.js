@@ -4,9 +4,9 @@ var totalbutton = document.querySelectorAll(".drum").length;
 
 for (var i = 0; i < totalbutton; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-      var buttonInnerhtml = this.innerHTML;
-      sounds(buttonInnerhtml);
-      animation(buttonInnerhtml);
+      var buttonInnerHTML = this.innerHTML;
+      sounds(buttonInnerHTML);
+      animation(buttonInnerHTML);
      
      });
     }
